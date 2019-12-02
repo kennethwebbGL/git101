@@ -10,8 +10,11 @@ https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 * What's Pull?
 * What's Push?
 
-# Branching
+# Understanding Rebase and Merge
+* Rebase
+* Merge
 
+# Branching
 * Local vs remote branches
 
 # Hands on Lab
