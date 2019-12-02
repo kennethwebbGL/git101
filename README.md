@@ -7,8 +7,8 @@ Workshop training on Git Fundamentals
 3. Install Express Globally (npm install -g express-generator)
 
 # How to run?
-1. Run npm i on the local folder
-2. On the command line execute: npm start
+1. Run *npm i* on the local folder
+2. On the command line execute: *npm start*
 
 # How to test it?
 In a browser go to http://localhost:3000/teammates
