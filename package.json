@@ -1,0 +1,23 @@
+{
+  "name": "git101",
+  "version": "1.0.0",
+  "description": "Git Fundamentals Workshop App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennethwebbGL/git101.git"
+  },
+  "author": "Kenneth Webb",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/kennethwebbGL/git101/issues"
+  },
+  "homepage": "https://github.com/kennethwebbGL/git101#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
