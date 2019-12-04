@@ -39,13 +39,12 @@ app.get("/glrooms", (req, res, next) => {
 app.get("/kenneth", (req, res, next) => {
     res.json("name:Kenneth");
 });
-
 app.get("/olman", (req, res, next) => {
     res.json({
         name: "Olman",
-        lastname: "Mora"
+        lastName: "Mora"
     });
-})
+});
 
 app.listen(3000, () => {
     console.log("Workshop Adia Server running on Port: 3000");
