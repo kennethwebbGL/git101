@@ -29,6 +29,7 @@ app.get("/teammates", (req, res, next) => {
     ]);
 });
 
+<<<<<<< HEAD
 app.get("/pato", (req, res, next) => {
     res.json([
         "pato"
@@ -63,6 +64,15 @@ app.get("/kenneth", (req, res, next) => {
 });
 
 
+=======
+app.get("/glrooms", (req, res, next) => {
+    res.json(["C#"
+    ,"JS"
+    ,"C++"
+]);
+});
+
+>>>>>>> Adding rooms method
 app.listen(3000, () => {
     console.log("Workshop Adia Server running on Port: 3000");
 });
