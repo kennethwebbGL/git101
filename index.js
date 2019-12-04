@@ -29,6 +29,18 @@ app.get("/teammates", (req, res, next) => {
     ]);
 });
 
+app.get("/qateam", (req, res, next) => {
+    res.json([
+        ,"Alejandro"
+        ,"Andres"
+        ,"Christian"
+        ,"Ernesto"
+        ,"Jean Carlo"
+        ,"Jorge"
+        ,"Lauras"
+    ]);
+});
+
 app.listen(3000, () => {
     console.log("Workshop Server running on Port: 3000");
 });
