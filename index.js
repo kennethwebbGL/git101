@@ -40,11 +40,10 @@ app.get("/kenneth", (req, res, next) => {
     res.json("name:Kenneth"
     );
 });
-
 app.get("/olman", (req, res, next) => {
     res.json({
         name: "Olman",
-        lastname: "Mora"
+        lastName: "Mora"
     });
 });
 
