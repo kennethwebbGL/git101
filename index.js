@@ -3,7 +3,8 @@ var app = express();
 
 app.get("/me", (req, res, next) => {
     res.json([
-       "JeanCarloVega"
+       "JeanCarloVega",
+       "asdfasdfasdf"
     ]);
 });
 app.get("/teammates", (req, res, next) => {
