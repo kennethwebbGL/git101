@@ -26,6 +26,7 @@ app.get("/teammates", (req, res, next) => {
         ,"Rob"
         ,"Rolo"
         ,"Royner"
+        ,"Lau 2"
     ]);
 });
 
