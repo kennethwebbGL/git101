@@ -36,5 +36,6 @@ app.get("/kenneth", (req, res, next) => {
 
 
 app.listen(3000, () => {
-    console.log("Workshop Server running on Port: 3000");
+    console.log("Workshop Adia Server running on Port: 3000");
 });
+
