@@ -18,7 +18,7 @@ app.get("/teammates", (req, res, next) => {
         ,"Jorge"
         ,"Kenneth"
         ,"Kristopher"
-        ,"Laura"
+        ,"Lau"
         ,"Luis"
         ,"Mike"
         ,"Olman"
@@ -26,6 +26,7 @@ app.get("/teammates", (req, res, next) => {
         ,"Rob"
         ,"Rolo"
         ,"Royner"
+        ,"Lau 2"
     ]);
 });
 
@@ -41,6 +42,27 @@ app.get("/qas", (req, res, next) => {
     ]);
 });
 
-app.listen(3000, () => {
-    console.log("Workshop Server running on Port: 3000");
+app.get("/glrooms", (req, res, next) => {
+    res.json(["C#"
+    ,"JS"
+    ,"C++"
+]);
 });
+
+app.get("/kenneth", (req, res, next) => {
+    res.json("name:Kenneth"
+    );
+});
+
+app.get("/colors", (req, res, next) => {
+    res.json([
+        "red"
+        , "black"
+        , "blue"
+    ]);
+});
+
+app.listen(3000, () => {
+    console.log("Workshop Adia Server running on Port: 3000");
+});
+
