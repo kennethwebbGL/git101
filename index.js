@@ -33,12 +33,11 @@ app.get("/glrooms", (req, res, next) => {
     res.json(["C#"
     ,"JS"
     ,"C++"
-]);
+    ]);
 });
 
 app.get("/kenneth", (req, res, next) => {
-    res.json("name:Kenneth"
-    );
+    res.json("name:Kenneth");
 });
 
 app.get("/olman", (req, res, next) => {
@@ -46,7 +45,7 @@ app.get("/olman", (req, res, next) => {
         name: "Olman",
         lastname: "Mora"
     });
-});
+})
 
 app.listen(3000, () => {
     console.log("Workshop Adia Server running on Port: 3000");
