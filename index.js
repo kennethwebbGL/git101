@@ -18,7 +18,7 @@ app.get("/teammates", (req, res, next) => {
         ,"Jorge"
         ,"Kenneth"
         ,"Kristopher"
-        ,"Laura"
+        ,"Lau"
         ,"Luis"
         ,"Mike"
         ,"Olman"
@@ -26,6 +26,7 @@ app.get("/teammates", (req, res, next) => {
         ,"Rob"
         ,"Rolo"
         ,"Royner"
+        ,"Lau 2"
     ]);
 });
 
@@ -44,6 +45,14 @@ app.get("/olman", (req, res, next) => {
         name: "Olman",
         lastName: "Mora"
     });
+});
+
+app.get("/colors", (req, res, next) => {
+    res.json([
+        "red"
+        , "black"
+        , "blue"
+    ]);
 });
 
 app.listen(3000, () => {
