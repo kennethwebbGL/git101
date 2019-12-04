@@ -18,7 +18,7 @@ app.get("/teammates", (req, res, next) => {
         ,"Jorge"
         ,"Kenneth"
         ,"Kristopher"
-        ,"Laura"
+        ,"Lau"
         ,"Luis"
         ,"Mike"
         ,"Olman"
