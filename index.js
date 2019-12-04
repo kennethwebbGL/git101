@@ -33,6 +33,7 @@ app.get("/pato", (req, res, next) => {
     res.json([
         "pato"
         ,"pato"
+        ,"pato con cambios"
         ,"pato P"
         ,"pato R"
         ,"pato Beatriz"
