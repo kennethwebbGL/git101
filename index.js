@@ -1,6 +1,12 @@
 var express = require("express");
 var app = express();
 
+app.get("/christian", (req, res, next) => {
+    res.json(
+        "Viva el CSH"
+    );
+});
+
 app.get("/teammates", (req, res, next) => {
     res.json([
         "Adrian"
