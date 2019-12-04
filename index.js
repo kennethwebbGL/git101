@@ -29,6 +29,14 @@ app.get("/teammates", (req, res, next) => {
     ]);
 });
 
+app.get("/colors", (req, res, next) => {
+    res.json([
+        "red"
+        , "black"
+        , "blue"
+    ]);
+});
+
 app.listen(3000, () => {
     console.log("Workshop Server running on Port: 3000");
 });
