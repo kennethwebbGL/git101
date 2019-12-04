@@ -29,13 +29,13 @@ app.get("/teammates", (req, res, next) => {
     ]);
 });
 
-app.get("/kenneth", (req, res, next) => {
-    res.json("name:Kenneth"
-    );
+app.get("/rhedil", (req, res, next) => {
+    res.json([
+        "name:Rhedil"
+        
+    ]);
 });
-
 
 app.listen(3000, () => {
-    console.log("Workshop Adia Server running on Port: 3000");
+    console.log("Workshop Server running on Port: 3000");
 });
-
