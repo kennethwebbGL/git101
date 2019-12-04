@@ -1,6 +1,11 @@
 var express = require("express");
 var app = express();
 
+app.get("/me", (req, res, next) => {
+    res.json([
+       "JeanCarloVega"
+    ]);
+});
 app.get("/teammates", (req, res, next) => {
     res.json([
         "Adrian"
